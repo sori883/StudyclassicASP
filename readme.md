@@ -29,6 +29,9 @@ https://a5m2.mmatsubara.com/
 **フォームの値を取得**  
 http://asp.style-mods.net/ref_request/form.htm  
 
+**コレクション**  
+http://umejan.hatenablog.com/entry/2015/08/08/234631  
+
 # 便利系サイト
 **関数リファレンス**  
 https://www.kanaya440.com/contents/script/vbs/function/index_abc.html 

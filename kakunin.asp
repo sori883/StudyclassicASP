@@ -3,12 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="shift_jis">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"> -->
 </head>
 <body>
 <%
-'ASP & Baspã®ã‚»ãƒƒãƒˆã‚¢ãƒƒãƒ—ç¢ºèª
+' ASP & Basp‚ÌƒZƒbƒgƒAƒbƒvŠm”F
 Response.Write "<p>Hello Classic ASP!</p>"
 Set objBASP21 = Server.CreateObject("basp21")
 ver = objBASP21.Version()
@@ -18,14 +19,21 @@ Response.Write ver
 %>
 <br>
 <%
-'
+'DBÚ‘±Šm”F
 
 set cn = Server.CreateObject ("ADODB.Connection")
 Set rs = Server.CreateObject("ADODB.Recordset")
 cn.Open "dsn=PostgreSQL10;uid=postgres;pwd=secret"
-'cn.CursorLocation = 3
+' count‚ðŽg—p‚·‚éê‡‚É•K—v
+cn.CursorLocation = 3
 
+' SQLŽÀs
 set rs = cn.Execute("select * from mybook")
+
+Response.write "ƒŠƒUƒ‹ƒg‚Ì”" & CStr(rs.RecordCount)
+
+Response.write "<br>"
+
 response.write("-------------<br>")
   do until rs.EOF
     response.write(rs("id") & "<br>")

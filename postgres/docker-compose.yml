@@ -1,13 +1,17 @@
 version: '3'
 services:
   postgres:
-    image: postgres:10-alpine
+    image: postgres:9.6.1
     restart: always
+    build:
+      context: ./postgres
+      dockerfile: Dockerfile
     # 任意のパスワード
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: secret
       POSTGRES_DB: testdb
+      TZ: "Asia/Tokyo"
     # ホスト側は任意のディレクトリ
     volumes:
       - testdb:/d/docker/postgres/data
