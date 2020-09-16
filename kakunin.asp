@@ -9,7 +9,7 @@
 </head>
 <body>
 <%
-' ASP & Baspのセットアップ確認
+' ASP & Basp
 Response.Write "<p>Hello Classic ASP!</p>"
 Set objBASP21 = Server.CreateObject("basp21")
 ver = objBASP21.Version()
@@ -19,18 +19,17 @@ Response.Write ver
 %>
 <br>
 <%
-'DB接続確認
-
+'DB
 set cn = Server.CreateObject ("ADODB.Connection")
 Set rs = Server.CreateObject("ADODB.Recordset")
 cn.Open "dsn=PostgreSQL10;uid=postgres;pwd=secret"
-' countを使用する場合に必要
+' countを使う場合は3にする
 cn.CursorLocation = 3
 
-' SQL実行
+' SQL
 set rs = cn.Execute("select * from mybook")
 
-Response.write "リザルトの数" & CStr(rs.RecordCount)
+Response.write "リザルト数" & CStr(rs.RecordCount)
 
 Response.write "<br>"
 
