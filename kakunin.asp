@@ -45,6 +45,15 @@ response.write("-------------<br>")
 rs.Close
 cn.Close
 
+
+
 %>
+<h4>ŠÂ‹«•Ï”</h4>
+<%
+For Each name In Request.ServerVariables
+  Response.Write name & " = " & Request.ServerVariables(name) & "<br>"
+Next
+%>
+
 </body>
 </html>
