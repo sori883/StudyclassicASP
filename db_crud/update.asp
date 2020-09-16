@@ -10,17 +10,18 @@
 <body>
   <%
     username = Request.Form("username")
+    id = Request.Form("id")
     
     set cn = Server.CreateObject ("ADODB.Connection")
     cn.Open "dsn=PostgreSQL10;uid=postgres;pwd=secret"
 
-    sql = "INSERT INTO mybook (name) VALUES ('"& username &"') "
+    sql = "UPDATE mybook SET name = '" & username & "' WHERE id = " & id
 
     cn.execute(sql)
 
     cn.Close
 
-    Response.Redirect "./index.html"
+    Response.Redirect "./index.asp"
   %>
 </body>
 </html>
