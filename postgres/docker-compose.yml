@@ -18,7 +18,13 @@ services:
     # ホスト側は任意のポート
     ports:
       - 5432:5432
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "8025:8025"
+      - "1025:1025"
 
 volumes:
   testdb:
     external: true
+
