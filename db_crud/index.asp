@@ -8,6 +8,14 @@
 </head>
 <body>
   <%
+      error = session("error_create")
+      If Not error = "" Then
+        response.write error
+        session.contents.remove("error_create")
+      End If
+  %>
+
+  <%
     id = ""
 
     set cn = Server.CreateObject ("ADODB.Connection")

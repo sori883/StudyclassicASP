@@ -9,16 +9,30 @@
 </head>
 <body>
   <%
+    validate = True
+    error = ""
+
     username = Request.Form("username")
-    
-    set cn = Server.CreateObject ("ADODB.Connection")
-    cn.Open "dsn=PostgreSQL10;uid=postgres;pwd=secret"
 
-    sql = "INSERT INTO mybook (name) VALUES ('"& username &"') "
+    'バリデーション
 
-    cn.execute(sql)
+    If username = "" Then
+      validate = False
+      error="空文字は登録出来ません"
+    End If
 
-    cn.Close
+    If validate Then
+      set cn = Server.CreateObject ("ADODB.Connection")
+      cn.Open "dsn=PostgreSQL10;uid=postgres;pwd=secret"
+
+      sql = "INSERT INTO mybook (name) VALUES ('"& username &"') "
+
+      cn.execute(sql)
+      
+      cn.Close
+    Else
+      session("error_create") = error
+    End If
 
     Response.Redirect "./index.asp"
   %>
