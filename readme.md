@@ -32,6 +32,17 @@ http://asp.style-mods.net/ref_request/form.htm
 **コレクション**  
 http://umejan.hatenablog.com/entry/2015/08/08/234631  
 
+**条件分岐等**  
+https://asp.verygoodtown.com/2009/08/if-els  
+
+**配列関係**  
+http://asp.style-mods.net/tips/asptips_8-03.htm  
+
+
+
 # 便利系サイト
 **関数リファレンス**  
-https://www.kanaya440.com/contents/script/vbs/function/index_abc.html 
+https://www.kanaya440.com/contents/script/vbs/function/index_abc.html  
+
+**サンプル集**  
+http://asp.style-mods.net/tips/asptips.htm  
