@@ -2,4 +2,7 @@
   "markdown.styles": [
     ".//.vscode//markdown.css"
   ],
+  "[html]": {
+    "files.encoding": "shiftjis",
+  },
 }
