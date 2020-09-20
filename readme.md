@@ -1,9 +1,18 @@
 # IIS設定関連
+**IIS構築**  
+https://genchan.net/it/pc/windows/8203/#WebIIS  
+
 **アクセス制限**  
 https://www.keicode.com/iis/set-iis-permission.php  
 
+**親パスの参照を有効にする**  
+http://www.balard.sakura.ne.jp/vb/dnet/iis7pass.php  
+
 **ブラウザにエラーを表示する**  
 https://ez-net.jp/article/67/RtQULn1B/uLp247LEfr2-/  
+
+**IISとFTP**  
+https://qiita.com/Higemal/items/85e48692ba971cc97037  
 
 **BASP21インストール関連**  
 https://www.allied-telesis.co.jp/support/list/nms/swmanager/web/docs/rn0301c_serverconf7.html  
@@ -16,11 +25,16 @@ http://www.hi-ho.ne.jp/babaq/basp21.html#0038
 **Postgresインストール**  
 https://note.com/syacyo_note/n/n99a35892c221  
 
+**postgresインストール関連**  
+https://www.dbonline.jp/postgresql/install/index4.html  
+
 **ドライバの設定**  
 Classic ASPで導入する場合は32bitを導入する必要がある  
 https://www.projectgroup.info/documents/PostgreSQL/POS_000008.html  
 ドライバのダウンロードページ  
 https://www.postgresql.org/ftp/odbc/versions/msi/  
+ANSIとUNICODEの違い  
+https://www.sraoss.co.jp/tech-blog/pgsql/psqlODBC/  
 
 **Postgresビュアー**  
 https://a5m2.mmatsubara.com/  
