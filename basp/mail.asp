@@ -1,4 +1,4 @@
-<%@ LANGUAGE=VBSCRIPT %>
+<%@LANGUAGE=VBSCRIPT %>
 <% 'On Error Resume Next %>
 <%
   Set basp = Server.CreateObject("basp21")

@@ -1,4 +1,4 @@
-<% @ LANGUAGE=VBSCRIPT %>
+<% @LANGUAGE=VBSCRIPT %>
 <% 'On Error Resume Next %>
 <!DOCTYPE html>
 <html>
@@ -11,10 +11,10 @@
   <%
     Response.Cookies("param") = "クッキー"
     Session("param") = "セッション"
-    Application("param") = "アプリケーション"
+    Application("param") = "アプリ"
 
   %>
 
-  <a href="get.asp">get.aspに遷移</a>
+  <a href="get.asp">get.aspに戻る</a>
 </body>
 </html>

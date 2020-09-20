@@ -1,4 +1,4 @@
-<% @ LANGUAGE=VBSCRIPT %>
+<% @LANGUAGE=VBSCRIPT %>
 <% 'On Error Resume Next %>
 <!DOCTYPE html>
 <html>
