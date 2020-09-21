@@ -52,11 +52,12 @@ https://asp.verygoodtown.com/2009/08/if-els
 **配列関係**  
 http://asp.style-mods.net/tips/asptips_8-03.htm  
 
-
-
 # 便利系サイト
 **関数リファレンス**  
 https://www.kanaya440.com/contents/script/vbs/function/index_abc.html  
 
-**サンプル集**  
+**サンプル集1**  
+https://asp.verygoodtown.com/  
+
+**サンプル集2**  
 http://asp.style-mods.net/tips/asptips.htm  
