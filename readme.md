@@ -40,6 +40,12 @@ https://www.sraoss.co.jp/tech-blog/pgsql/psqlODBC/
 https://a5m2.mmatsubara.com/  
 
 # ソースコード関連
+**ASPで文字コード指定**  
+https://nasunoblog.blogspot.com/2010/05/web-asputf-8.html  
+
+**ファイルのパスをビルド**  
+https://blog.stm43.com/entry/20150108/1420728578   
+
 **フォームの値を取得**  
 http://asp.style-mods.net/ref_request/form.htm  
 
