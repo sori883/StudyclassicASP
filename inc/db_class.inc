@@ -16,7 +16,9 @@ Class DbClass
   End Function
 
   Public Function DbUpdater(sql)
+    cn.BeginTrans
     cn.execute(sql)
+    cn.CommitTrans
   End Function
 
   ' デストラクタ
