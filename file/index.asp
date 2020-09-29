@@ -8,7 +8,7 @@
 </head>
 <body>
 <%
-  Set objFso = CreateObject("Scripting.FileSystemObject")
+  Set objFso = Server.CreateObject("Scripting.FileSystemObject")
   
   ' ファイルの保存場所を作成
 
@@ -39,6 +39,27 @@
   End If
 
   objFile.Close
+
+ ' ファイルの内容を全て削除して書き込み
+  Set objFileEdit = objFso.OpenTextFile(fullpath, 2, True, -2)
+  If Err.Number > 0 Then
+    Response.Write "Open Error"
+  Else
+      objFileEdit.writeLine "追加する文字列です。"
+  End If
+
+  objFileEdit.Close
+
+  ' ファイルに文字を追加
+  Set objFileAdd = objFso.OpenTextFile(fullpath, 8, True, -2)
+  If Err.Number > 0 Then
+    Response.Write "Open Error"
+  Else
+      objFileAdd.writeLine "追加する文字列です。"
+  End If
+
+  objFileAdd.Close
+  
   Set objFile = Nothing
   Set objFso = Nothing
 %>
