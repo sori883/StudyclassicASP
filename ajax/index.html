@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="shift_jis">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  </head>
+  <body>
+    <button class="get">GET</button>
+
+    <script src="jquery.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.get').on('click', function() {
+          getTest();
+        })
+      });
+
+      function getTest() {
+        $.ajax({
+          type: 'GET',
+          url: './ajax.asp',
+          dataType: 'json',
+          data: {name: "Hoge"},
+          success: function(result, textStatus, xhr) {
+            console.log(Object.keys(result) + ": " + result.name)
+          },
+          error: function(result, textStatus, xhr) {
+            console.log(result)
+            console.log(textStatus)
+            console.log(xhr)
+          }
+      })
+    }
+    </script>
+  </body>
+</html>
