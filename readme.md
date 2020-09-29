@@ -46,7 +46,10 @@ https://nasunoblog.blogspot.com/2010/05/web-asputf-8.html
 **ファイルのパスをビルド**  
 https://blog.stm43.com/entry/20150108/1420728578   
 
-**フォームの値を取得**  
+**ファイル操作サンプル**  
+http://www.ken3.org/asp/backno/asp006.html  
+
+**フォームの値を取得(ファイルパスを取得出来る)**  
 http://asp.style-mods.net/ref_request/form.htm  
 
 **コレクション**  
@@ -57,6 +60,9 @@ https://asp.verygoodtown.com/2009/08/if-els
 
 **配列関係**  
 http://asp.style-mods.net/tips/asptips_8-03.htm  
+
+**Ajax**  
+https://qiita.com/hyakuson/items/4ff6b9f8154a34950103  
 
 # 便利系サイト
 **関数リファレンス**  
