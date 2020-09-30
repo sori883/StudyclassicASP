@@ -64,6 +64,15 @@ http://asp.style-mods.net/tips/asptips_8-03.htm
 **Ajax**  
 https://qiita.com/hyakuson/items/4ff6b9f8154a34950103  
 
+**JSONで出力**  
+https://qiita.com/okoppe8/items/f9022e42e10261a41340  
+
+**BASPのファイルアップロード**  
+http://www.hi-ho.ne.jp/babaq/basp21.html#0024  
+
+**ファイルアップロード**  
+https://winofsql.jp/VA003334/infoboard_page.php?mid=aspSample&id=011109160056  
+
 # 便利系サイト
 **関数リファレンス**  
 https://www.kanaya440.com/contents/script/vbs/function/index_abc.html  
