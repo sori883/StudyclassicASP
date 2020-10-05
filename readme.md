@@ -73,6 +73,13 @@ http://www.hi-ho.ne.jp/babaq/basp21.html#0024
 **ファイルアップロード**  
 https://winofsql.jp/VA003334/infoboard_page.php?mid=aspSample&id=011109160056  
 
+**EXCELをSQLで取得する**  
+http://www.ken3.org/asp/backno/asp085.html  
+
+**excelを読み込む(EOFみたいなものを使う)**  
+https://karuta.wordpress.com/2015/10/25/reading-excel-files-in-classic-asp/    
+
+
 # 便利系サイト
 **関数リファレンス**  
 https://www.kanaya440.com/contents/script/vbs/function/index_abc.html  
