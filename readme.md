@@ -28,6 +28,10 @@ https://note.com/syacyo_note/n/n99a35892c221
 **postgresインストール関連**  
 https://www.dbonline.jp/postgresql/install/index4.html  
 
+**DCOM設定**  
+IIS > アプリケーションプール > 使用しているアプリケーションの詳細設定を開く > ユーザプロフェイルの読み込みをTRUEにする
+DCOM > DCOMの構成 > EXCELのプロパティを表示 > IDタブで起動したユーザを選択、もしくはこのユーザでもうまくいくみたい
+
 **ドライバの設定**  
 Classic ASPで導入する場合は32bitを導入する必要がある  
 https://www.projectgroup.info/documents/PostgreSQL/POS_000008.html  
