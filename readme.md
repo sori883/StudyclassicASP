@@ -1,3 +1,4 @@
+※再勉強終わりにします。
 # IIS設定関連
 **IIS構築**  
 https://genchan.net/it/pc/windows/8203/#WebIIS  
